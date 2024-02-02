@@ -16,6 +16,7 @@ load_dotenv()
 secret_key = os.getenv('SECRET_KEY')
 
 #
+# mlflow.set_tracking_uri(uri="http://localhost:5000")
 mlflow.set_experiment("document_qa")
 #
 
